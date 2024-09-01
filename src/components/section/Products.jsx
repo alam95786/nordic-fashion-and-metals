@@ -80,15 +80,14 @@ const Products = ({bgColor}) => {
     <>
     <section className={`content-inner-1 ${bgColor ? bgColor : ''} over`}>
       <div className="container">
-        <div className="section-head style-2 text-center">
+        <div className="section-head style-2 text-center" data-aos="fade-up"
+                data-aos-duration="800">
           <h6 className="sub-title text-primary">Our Product</h6>
           <h2 className="title">Top Fashion</h2>
         </div>
         <div className="product-list">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
-            spaceBetween={30}
-            slidesPerView={4}
             autoplay={{
               delay: 2000, 
               disableOnInteraction: false,
@@ -97,6 +96,24 @@ const Products = ({bgColor}) => {
             speed={1000} 
             parallax={true}
             loop={true}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
+              1024: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+            }}
             navigation={{
               nextEl: '.testimonial3-next',
               prevEl: '.testimonial3-prev',

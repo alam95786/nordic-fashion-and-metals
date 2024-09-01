@@ -5,7 +5,8 @@ const IntroVideo = () => {
         <section className="dz-content-bx style-5 content-inner-1 pb-0">
             <div className="dz-content-inner">
                 <div className="container">
-                    <div className="section-head style-2 text-center">
+                    <div className="section-head style-2 text-center" data-aos="fade-up"
+                data-aos-duration="800">
                         <h2 className="title text-white">Let’s Show For A <br />Cool Project</h2>
                     </div>
                     <div className="row spno">

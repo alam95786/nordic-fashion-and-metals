@@ -1,26 +1,10 @@
-/** Core script to handle the entire theme and core functions **/
+
 
 var ArchHub = function(){
 	'use strict';
 	
 	var screenWidth = $( window ).width();
 	
-	var homeSearch = function() {
-		/* top search in header on click function */
-		var quikSearch = jQuery("#quik-search-btn");
-		var quikSearchRemove = jQuery("#quik-search-remove");
-		
-		quikSearch.on('click',function() {
-			jQuery('.dz-quik-search').fadeIn(500);
-			jQuery('.dz-quik-search').addClass('On');
-		});
-		
-		quikSearchRemove.on('click',function() {
-			jQuery('.dz-quik-search').fadeOut(500);
-			jQuery('.dz-quik-search').removeClass('On');
-		});	
-		/* top search in header on click function End*/
-	}
 	
 	/* One Page Layout ============ */
 	var onePageLayout = function() {
@@ -102,29 +86,29 @@ var ArchHub = function(){
     }
 	
 	/* Load File ============ */
-	var dzTheme = function(){
-		if(screenWidth <= 991 ){
-			jQuery('.navbar-nav > li > a, .sub-menu > li > a').unbind().on('click', function(e){
-				if(jQuery(this).parent().hasClass('open'))
-				{
-					jQuery(this).parent().removeClass('open');
-				}
-				else{
-					jQuery(this).parent().parent().find('li').removeClass('open');
-					jQuery(this).parent().addClass('open');
-				}
-			});
-		}
+	// var dzTheme = function(){
+	// 	if(screenWidth <= 991 ){
+	// 		jQuery('.navbar-nav > li > a, .sub-menu > li > a').unbind().on('click', function(e){
+	// 			if(jQuery(this).parent().hasClass('open'))
+	// 			{
+	// 				jQuery(this).parent().removeClass('open');
+	// 			}
+	// 			else{
+	// 				jQuery(this).parent().parent().find('li').removeClass('open');
+	// 				jQuery(this).parent().addClass('open');
+	// 			}
+	// 		});
+	// 	}
 		
-		jQuery('.menu-btn, .openbtn').on('click',function(){
-			jQuery('.contact-sidebar').addClass('active');
-		});
-		jQuery('.menu-close').on('click',function(){
-			jQuery('.contact-sidebar').removeClass('active');
-			jQuery('.menu-btn').removeClass('open');
-		});
+	// 	jQuery('.menu-btn, .openbtn').on('click',function(){
+	// 		jQuery('.contact-sidebar').addClass('active');
+	// 	});
+	// 	jQuery('.menu-close').on('click',function(){
+	// 		jQuery('.contact-sidebar').removeClass('active');
+	// 		jQuery('.menu-btn').removeClass('open');
+	// 	});
 		
-	}
+	// }
 	
 	/* Magnific Popup ============ */
 	var MagnificPopup = function(){

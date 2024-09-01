@@ -13,7 +13,8 @@ const CoworkingSpace = () => {
   return (
     <section className="content-inner-2 pt-0">
       <div className="container">
-        <div className="section-head style-2 text-center">
+        <div className="section-head style-2 text-center" data-aos="fade-up"
+                data-aos-duration="800">
           <h6 className="sub-title text-primary">Lorem, ipsum dolor.</h6>
           <h2 className="title">Lorem, ipsum.</h2>
         </div>
@@ -21,8 +22,6 @@ const CoworkingSpace = () => {
           <div className="col-lg-12 m-b30">
             <Swiper
               modules={[Navigation, Pagination, Autoplay]}
-              spaceBetween={30}
-              slidesPerView={3}
               autoplay={{
                 delay: 2000, 
                 disableOnInteraction: false,
@@ -31,6 +30,24 @@ const CoworkingSpace = () => {
               speed={1000} 
               parallax={true}
               loop={true}
+              breakpoints={{
+                0: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                580: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 30,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                },
+              }}
               navigation={{
                 nextEl: ".testimonial3-next",
                 prevEl: ".testimonial3-prev",
@@ -41,9 +58,6 @@ const CoworkingSpace = () => {
               <SwiperSlide>
                 <div
                   className="dz-card blog-grid style-2 aos-item rounded-0"
-                  data-aos="fade-up"
-                  data-aos-duration="2000"
-                  data-aos-delay="200"
                 >
                   <div className="dz-media">
                     <a href="ArchHub/BlogDetails.html">
@@ -82,9 +96,6 @@ const CoworkingSpace = () => {
               <SwiperSlide>
                 <div
                   className="dz-card blog-grid style-2 aos-item rounded-0"
-                  data-aos="fade-up"
-                  data-aos-duration="2000"
-                  data-aos-delay="200"
                 >
                   <div className="dz-media">
                     <a href="ArchHub/BlogDetails.html">
@@ -123,9 +134,6 @@ const CoworkingSpace = () => {
               <SwiperSlide>
                 <div
                   className="dz-card blog-grid style-2 aos-item rounded-0"
-                  data-aos="fade-up"
-                  data-aos-duration="2000"
-                  data-aos-delay="200"
                 >
                   <div className="dz-media">
                     <a href="ArchHub/BlogDetails.html">

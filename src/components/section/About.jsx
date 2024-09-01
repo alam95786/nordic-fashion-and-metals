@@ -14,7 +14,6 @@ const About = () => {
                 className="img1"
                 data-aos="fade-down"
                 data-aos-duration="800"
-                data-aos-delay="400"
               />
               {/* <img
                 src={pic2}
@@ -30,7 +29,6 @@ const About = () => {
             className="col-lg-6 m-b30"
             data-aos="fade-in"
             data-aos-duration="800"
-            data-aos-delay="400"
           >
             <div className="section-head style-2">
               <h6 className="sub-title text-gold">About Me</h6>

@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*
-    Table of Content: 
-
-    1. Abstract
-    2. Bootstrap CSS
-    3. Base
-    4. Layout
-    5. Component
-    7. Pages
-    
-*/
 @import url("../icons/line-awesome/css/line-awesome.min.css");
 @import url("../icons/font-awesome/css/all.min.css");
 @import url("../icons/flaticon/flaticon.css");
@@ -34,11 +23,7 @@
   --title: #212529;
   --quote: url(../images/quote-1.png); }
 
-/*!
-   * Bootstrap  v5.3.0-alpha3 (https://getbootstrap.com/)
-   * Copyright 2011-2023 The Bootstrap Authors
-   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-   */
+
 :root,
 [data-bs-theme="light"] {
   --bs-gray-100: #f8f9fa;
@@ -19890,14 +19875,14 @@ pre {
   z-index: 9; }
   @media only screen and (max-width: 1280px) {
     .logo-header {
-      width: 150px; } }
+      width: 100px; } }
   @media only screen and (max-width: 991px) {
     .logo-header {
-      width: 180px;
-      height: 80px; } }
+      width: 70px;
+      height: auto; } }
   @media only screen and (max-width: 575px) {
     .logo-header {
-      width: 130px; } }
+      width: 60px; } }
   .logo-header a {
     display: table-cell;
     vertical-align: middle; }
@@ -20561,7 +20546,7 @@ pre {
         padding-bottom: 20px; } }
 
 .header-transparent {
-  position: absolute;
+  position: fixed !important;
   top: 0;
   left: 0;
   width: 100%; }
@@ -20635,11 +20620,14 @@ pre {
       height: auto !important;
       max-width: 100%;
       padding: 25px 20px;
-      width: 100% !important; }
+      width: 100% !important;
+      background-color: var(--primary);
+    }
       .mo-left .header-nav .logo-header img {
         max-width: unset;
-        width: 180px;
-        vertical-align: middle; }
+        width: 60px;
+        vertical-align: middle; 
+      }
     .mo-left .header-nav li.open a {
       position: relative; }
   .mo-left .navbar-toggler.open {
@@ -20814,7 +20802,7 @@ pre {
   }
     @media only screen and (max-width: 991px) {
       .site-header.style-2 .header-nav .nav > li > a {
-        color: #000; } }
+        color: #000 !important; } }
     @media only screen and (min-width: 991px) {
       .site-header.style-2 .header-nav .nav > li.sub-menu-down > a:after {
         color: var(--primary-hover);
@@ -21846,6 +21834,9 @@ footer {
 @media (max-width:767px) {
   .product-list.grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .slidearea {
+    padding-top: 80px;
   }
 }
 

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-12 aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+            <div className="col-lg-3 col-12 aos-item" data-aos="fade-up" data-aos-duration="1000">
               <div className="widget widget_about">
                 <h4 className="footer-title">CONTACT</h4>
                 <div className="widget_getintuch">
@@ -33,7 +33,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="offset-lg-1 col-lg-2 col-sm-4 col-6 aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <div className="offset-lg-1 col-lg-2 col-sm-4 col-6 aos-item" data-aos="fade-up" data-aos-duration="1000">
               <div className="widget widget_services">
                 <h4 className="footer-title">OUR LINKS</h4>
                 <ul>
@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-4 col-6 aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <div className="col-lg-3 col-sm-4 col-6 aos-item" data-aos="fade-up" data-aos-duration="1000" >
               <div className="widget widget_services">
                 <h4 className="footer-title">OUR Product</h4>
                 <ul>
@@ -58,7 +58,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-4 col-6 aos-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <div className="col-lg-3 col-sm-4 col-6 aos-item" data-aos="fade-up" data-aos-duration="1000" >
               <div className="widget widget_services">
                 <h4 className="footer-title">OTHER LINKS</h4>
                 <ul>

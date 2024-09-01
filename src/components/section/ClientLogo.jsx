@@ -30,8 +30,6 @@ const ClientsLogo = () => {
 			</div>
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
-          spaceBetween={30}
-          slidesPerView={5}
           speed={1000} 
           parallax={true}
           loop={true}
@@ -40,16 +38,20 @@ const ClientsLogo = () => {
             disableOnInteraction: false,
           }}
           breakpoints={{
-            640: {
+            0: {
               slidesPerView: 2,
               spaceBetween: 20,
             },
+            640: {
+              slidesPerView: 4,
+              spaceBetween: 20,
+            },
             768: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 30,
             },
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 5,
               spaceBetween: 40,
             },
           }}

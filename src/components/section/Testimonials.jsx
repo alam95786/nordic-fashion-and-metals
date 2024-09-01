@@ -18,8 +18,6 @@ const Testimonial = () => {
         <div className="testi-inner">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
-            spaceBetween={30}
-            slidesPerView={3}
             autoplay={{
               delay: 2000, 
               disableOnInteraction: false,
@@ -28,6 +26,24 @@ const Testimonial = () => {
             speed={1000} 
             parallax={true}
             loop={true}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              580: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
+            }}
             navigation={{
               nextEl: '.testimonial3-next',
               prevEl: '.testimonial3-prev',
