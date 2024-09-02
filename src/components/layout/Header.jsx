@@ -11,8 +11,11 @@ const Header = () => {
   };
 
   const HideMenu = () => {
-    menuRef.current.click();
-  }
+    if (window.innerWidth < 991) {
+      menuRef.current.click();
+    }
+  };
+  
   return (
     <header className="site-header mo-left header style-2 header-transparent">
      
