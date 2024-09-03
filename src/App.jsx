@@ -11,6 +11,7 @@ import Gallery from "./pages/Gallery";
 import GarmentsProduct from "./pages/GarmentsProduct";
 import MetalsProduct from "./pages/MetalsProduct";
 import AboutUs from "./pages/AboutUs";
+import ScrollToTop from "./components/layout/ScrollTop";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
   return (
     <>
       <Header/>
+      <ScrollToTop/>
       <Routes>
         <Route path="/"  element={<Home />} />
         <Route path="/about" element={<AboutUs />} />

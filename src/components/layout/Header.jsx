@@ -4,6 +4,7 @@ import logo from '../../assets/images/nf-logo.png'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isSubOpen, setIsSubOpen] = useState(false);
   const menuRef = useRef();
 
   const handleClick = () => {
@@ -16,6 +17,9 @@ const Header = () => {
     }
   };
   
+  const subMenuOpen = ( )=> {
+    setIsSubOpen((isSubOpen)=> !isSubOpen )
+  }
   return (
     <header className="site-header mo-left header style-2 header-transparent">
      
@@ -24,7 +28,7 @@ const Header = () => {
           <div className="container clearfix">
            
             <div className="logo-header mostion logo-light p-1">
-              <Link to="/" onClick={HideMenu}>
+              <Link to="/">
                 <img src={logo} className='' alt="Logo" />
               </Link>
             </div>
@@ -53,8 +57,8 @@ const Header = () => {
                 <li>
                   <Link to="/gallery" onClick={HideMenu}>gallery</Link>
                 </li>
-                <li className="sub-menu-down">
-                  <Link to="javascript:void(0);">Product</Link>
+                <li className={`sub-menu-down ${isSubOpen && "open"}`}>
+                  <Link to="javascript:void(0);" onClick={subMenuOpen} >Product</Link>
                   <ul className="sub-menu">
                     <li><Link to="/garments" onClick={HideMenu}>Garments</Link></li>
                     <li><Link to="/metals" onClick={HideMenu}>Metals</Link></li>
