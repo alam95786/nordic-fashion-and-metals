@@ -14,7 +14,11 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className="las la-map-marker-alt"></i>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      India Office
+                      New Delhi, India<br/>
+                      Europe Office:
+                      Copenhagen, Denmark
+
                     </li>
                     <li>
                       <i className="las la-phone-volume"></i>
@@ -39,9 +43,10 @@ const Footer = () => {
                 <ul>
                   <li><Link to="/">Home</Link></li>
                   <li><Link to="/about">About Us</Link></li>
-                  <li><Link to="/garments">Garments</Link></li>
-                  <li><Link to="/metals">Metals</Link></li>
-                  <li><Link to="#">Lorem, ipsum.</Link></li>
+                  <li><Link to="/gallery">Gallery</Link></li>
+                  <li><Link to="/contact">Contact Us</Link></li>
+                  
+                  
                 </ul>
               </div>
             </div>
@@ -50,10 +55,8 @@ const Footer = () => {
               <div className="widget widget_services">
                 <h4 className="footer-title">OUR Product</h4>
                 <ul>
-                  <li><Link to="#">Lorem, ipsum dolor.</Link></li>
-                  <li><Link to="#">Lorem, ipsum dolor.</Link></li>
-                  <li><Link to="#">Lorem, ipsum dolor.</Link></li>
-                  <li><Link to="#">Lorem, ipsum dolor.</Link></li>
+                    <li><Link to="/garments">Garments</Link></li>
+                    <li><Link to="/metals">Metals</Link></li>
                 </ul>
               </div>
             </div>
@@ -62,11 +65,8 @@ const Footer = () => {
               <div className="widget widget_services">
                 <h4 className="footer-title">OTHER LINKS</h4>
                 <ul>
-                  <li><Link to="/about">About Us</Link></li>
-                  <li><Link to="/gallery">Gallery</Link></li>
                   <li><Link to="#">Privacy Policy</Link></li>
                   <li><Link to="#">Terms & Condition</Link></li>
-                  <li><Link to="/contact">Contact Us</Link></li>
                 </ul>
               </div>
             </div>
@@ -85,7 +85,6 @@ const Footer = () => {
             </div>
             <div className="col-md-6 text-center text-md-end">
               <ul className="footer-link d-inline-block">
-                <li><Link to="/about">About</Link></li>
                 <li><Link to="/contact">Help Desk</Link></li>
                 <li><Link to="#">Privacy Policy</Link></li>
               </ul>

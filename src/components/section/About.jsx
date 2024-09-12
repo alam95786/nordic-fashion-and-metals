@@ -1,5 +1,5 @@
 import React from "react";
-import pic1 from '../../assets/images/about/pic1.jpg'
+import pic1 from '../../assets/images/about/about-me.jpg'
 import { Link } from "react-router-dom";
 const About = () => {
   return (
@@ -32,10 +32,11 @@ const About = () => {
           >
             <div className="section-head style-2">
               <h6 className="sub-title text-gold">About Me</h6>
-              <h2 className="title m-b20">Lorem ipsum dolor sit amet consectetur.</h2>
+              <h2 className="title m-b20">Nahid Fatima (Owner and Founder)</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque quos, commodi porro est magni eum, et reprehenderit veritatis eveniet saepe mollitia veniam? Suscipit, placeat eaque.
+              Nahid Fatima, the visionary founder and owner of Nordic Fashion and Metals, is a true trailblazer in both the garment and brass industries. With a wealth of experience spanning years in fashion and metal craftsmanship, she has carved a unique niche for herself. Nahid’s remarkable ability to seamlessly blend creativity with technical expertise has propelled her brand to the forefront of innovation and style.
               </p>
+              <p>Her deep knowledge of garment design, coupled with her extensive experience in the brass industry, has allowed her to create products that are not only aesthetically stunning but also of unparalleled quality. Under her leadership, Nordic Fashion and Metals has become synonymous with elegance, craftsmanship, and originality, standing out in a competitive market.</p>
             </div>
             <Link
               to="/about"

@@ -45,8 +45,8 @@ const Contact = () => {
               <div className="icon-content">
                 <h4 className="tilte m-b10">Call Now</h4>
                 <p className="m-b0">
-                  +91 123 456 7890,
-                  <br /> +91 987 654 3210
+                  +91 0000000
+                  <br /> +91 0000000
                 </p>
               </div>
             </div>
@@ -91,8 +91,11 @@ const Contact = () => {
               <div className="icon-content">
                 <h4 className="tilte m-b10">Location</h4>
                 <p className="m-b0">
-                  15/B Miranda House,
-                  <br /> New York, US
+                India Office
+              New Delhi, India <br/>
+              Europe Office:
+              Copenhagen, Denmark
+
                 </p>
               </div>
             </div>

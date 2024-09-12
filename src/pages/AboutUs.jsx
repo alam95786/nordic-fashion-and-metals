@@ -39,19 +39,16 @@ const AboutUs = () => {
               </h4>
             </div>
             <p className="m-b30 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-              Donec lacus velit, volutpat a consequat quis, placerat vitae massa. Nulla facilisi. Fusce ac odio justo.
-              Phasellus a risus in libero feugiat aliquam quis nec metus. Sed vulputate bibendum nulla, eu sodales magna
-              gravida nec. Integer sit amet sollicitudin massa, a blandit lectus. Vivamus lacinia justo non congue
-              blandit.
+            Nordic Fashion and Metals is an innovative company with a unique presence in both Europe and India, specializing in the fusion of high-quality fashion and metal craftsmanship. Founded by Nahid Fatima, the company brings together her extensive experience in the garment and brass industries to create exceptional products that stand out for their design and durability.
             </p>
             <div className="accordion dz-accordion about-faq" id="aboutFaq">
               <div className="accordion-item">
                 <h4 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#aboutOne"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="aboutOne"
                   >
                     <i className="flaticon-crane"></i>
@@ -61,13 +58,13 @@ const AboutUs = () => {
                 </h4>
                 <div
                   id="aboutOne"
-                  className="accordion-collapse collapse show"
+                  className="accordion-collapse collapse"
                   aria-labelledby="aboutOne"
                   data-bs-parent="#aboutFaq"
                 >
                   <div className="accordion-body">
                     <p className="m-b0">
-                      Vivamus sed eleifend diam. Proin vel orci commodo nulla viverra feugiat nec quis neque.
+                    The mission of Nordic Fashion and Metals is to create innovative, high-quality products that seamlessly blend the art of fashion with expert metal craftsmanship. We are committed to delivering exceptional designs that embody elegance, durability, and sustainability. By combining traditional techniques with modern aesthetics, we aim to inspire creativity and set new standards in both the fashion and metal industries, while fostering a culture of craftsmanship, integrity, and global collaboration.
                     </p>
                   </div>
                 </div>
@@ -94,7 +91,7 @@ const AboutUs = () => {
                 >
                   <div className="accordion-body">
                     <p className="m-b0">
-                      Vivamus sed eleifend diam. Proin vel orci commodo nulla viverra feugiat nec quis neque.
+                    The vision of Nordic Fashion and Metals is to become a global leader in the fusion of fashion and metal craftsmanship, recognized for our innovative designs, quality, and sustainability. We aspire to shape the future of the industry by creating timeless, versatile products that celebrate both modern creativity and traditional artistry. Our goal is to inspire and empower individuals around the world with unique, elegant, and durable pieces, while fostering a positive impact on the communities and markets we serve across Europe, India, and beyond.
                     </p>
                   </div>
                 </div>
@@ -121,7 +118,7 @@ const AboutUs = () => {
                 >
                   <div className="accordion-body">
                     <p className="m-b0">
-                      Vivamus sed eleifend diam. Proin vel orci commodo nulla viverra feugiat nec quis neque.
+                    More than just clothing, fashion is an art form that tells stories, challenges norms, and shapes how people present themselves to the world. It influences lifestyle choices and plays a key role in defining eras, movements, and global aesthetics.
                     </p>
                   </div>
                 </div>

@@ -5,73 +5,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-import pic1 from '../../assets/images/product/pd1.jpg';
-import pic2 from '../../assets/images/product/pd2.jpg';
-import pic3 from '../../assets/images/product/pd3.jpg';
-import pic4 from '../../assets/images/product/pd4.jpg';
-import pic5 from '../../assets/images/product/pd5.jpg';
-import pic6 from '../../assets/images/product/pd6.jpg';
 
-const Products = ({bgColor}) => {
-  const products = [
-    {
-      id: 1,
-      title: "Green Iron Hanging Lantern",
-      image: pic1,
-      material: "Iron",
-      color: "Green",
-      application: "Home Decor",
-      uses: "Restaurants, Homes"
-    },
-    {
-      id: 2,
-      title: "Blue Ceramic Vase lorem",
-      image: pic2,
-      material: "Ceramic",
-      color: "Blue",
-      application: "Home Decor",
-      uses: "Offices, Homes"
-    },
-    {
-      id: 3,
-      title: "Red Glass Candle Holder",
-      image: pic3,
-      material: "Glass",
-      color: "Red",
-      application: "Home Decor",
-      uses: "Restaurants, Homes"
-    },
-    {
-      id: 4,
-      title: "Red Glass Candle Holder",
-      image: pic4,
-      material: "Glass",
-      color: "Red",
-      application: "Home Decor",
-      uses: "Restaurants, Homes"
-    },
-    {
-      id: 5,
-      title: "Red Glass Candle Holder",
-      image: pic5,
-      material: "Glass",
-      color: "Red",
-      application: "Home Decor",
-      uses: "Restaurants, Homes"
-    },
-    {
-      id: 6,
-      title: "Red Glass Candle Holder",
-      image: pic6,
-      material: "Glass",
-      color: "Red",
-      application: "Home Decor",
-      uses: "Restaurants, Homes"
-    },
-    
-    // Add more products as needed
-  ];
-
+const Products = ({bgColor, title, items}) => {
+  
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const togglePopup = () => {
     setIsPopupOpen(!isPopupOpen);
@@ -83,7 +19,7 @@ const Products = ({bgColor}) => {
         <div className="section-head style-2 text-center" data-aos="fade-up"
                 data-aos-duration="800">
           <h6 className="sub-title text-primary">Our Product</h6>
-          <h2 className="title">Top Fashion</h2>
+          <h2 className="title">{title}</h2>
         </div>
         <div className="product-list">
           <Swiper
@@ -120,7 +56,7 @@ const Products = ({bgColor}) => {
             }}
             pagination={{ clickable: true, el: '.testimonial3-pagination' }}
           >
-            {products.map((product) => (
+            {items.map((product) => (
               <SwiperSlide key={product.id}>
                 <div className="product-wrapper">
                   <div className="thumbnail">

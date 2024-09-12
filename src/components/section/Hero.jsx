@@ -62,12 +62,12 @@ const Hero = () => {
                 <div className="inner-content row align-items-center g-0">
                   <div className="col-md-6">
                     <div className="inner-text">
-                      <h6 className="text text-gold">Lorem ipsum dolor sit amet.</h6>
+                      <h6 className="text text-gold">Nordic Fashion</h6>
                       <h3 className="title">
-                        Lorem, ipsum dolor.<br /> A <span className="text-gold">Lorem</span> sit amet
+                      Manufactures and <br /> A <span className="text-gold">exporters</span> of garments
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, veritatis.
+                      Deliver best quality of fashion products around the world in various categories.
                       </p>
                       <div>
                         <Link
@@ -105,12 +105,12 @@ const Hero = () => {
                 <div className="inner-content row align-items-center g-0">
                   <div className="col-md-6">
                     <div className="inner-text">
-                      <h6 className="text text-gold">Lorem ipsum dolor sit amet.</h6>
+                      <h6 className="text text-gold">Nordic Metals</h6>
                       <h3 className="title">
-                        Lorem, ipsum dolor.<br /> A <span className="text-gold">Lorem</span> sit amet
+                      Designing metals with <br /> passion and  a <span className="text-gold">creativity</span> <br /> converting  into your dreams
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, veritatis.
+                      Deliver best quality of metals products around the world in various categories.
                       </p>
                       <div>
                         <Link
@@ -142,50 +142,6 @@ const Hero = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="silder-content" data-swiper-parallax="-40%">
-              <div className="container">
-                <div className="inner-content row align-items-center g-0">
-                  <div className="col-md-6">
-                    <div className="inner-text">
-                      <h6 className="text text-gold">Lorem ipsum dolor sit amet.</h6>
-                      <h3 className="title">
-                        Lorem, ipsum dolor.<br /> A <span className="text-gold">Lorem</span> sit amet
-                      </h3>
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, veritatis.
-                      </p>
-                      <div>
-                        <Link
-                          to="/garments"
-                          className="btn btn-primary btn-rounded btn-md hover-icon"
-                        >
-                          <span>See Product</span>
-                          <i className="fas fa-arrow-right"></i>
-                        </Link>
-                        <button
-                          className="btn btn-primary btn-rounded m-l15 btn-border btn-md hover-icon"
-                          onClick={togglePopup}
-                        >
-                          <span>Enquiry Now</span>
-                          <i className="fas fa-arrow-right"></i>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="overlay-slide" data-swiper-parallax="100%">
-                      <img
-                        src={banner1}
-                        alt="Slide 1"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-
           
         </Swiper>
 

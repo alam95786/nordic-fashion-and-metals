@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/nf-logo.png'
+import logo from '../../assets/images/nf-hr-logo.png'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +27,7 @@ const Header = () => {
         <div className="main-bar clearfix bg-dark">
           <div className="container clearfix">
            
-            <div className="logo-header mostion logo-light p-1">
+            <div className="logo-header mostion logo-light">
               <Link to="/">
                 <img src={logo} className='' alt="Logo" />
               </Link>
