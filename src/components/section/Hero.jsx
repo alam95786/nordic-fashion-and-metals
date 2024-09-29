@@ -39,7 +39,7 @@ const Hero = () => {
     <div className="slidearea ps-0">
       <div className="silder-three">
         <Swiper
-          modules={[Navigation, Pagination, Parallax]}
+          modules={[Navigation, Pagination, Parallax, Autoplay]}
           spaceBetween={0}
           slidesPerView={1}
           autoplay={{
