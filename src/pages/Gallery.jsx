@@ -8,6 +8,14 @@ import pic3 from '../assets/images/product/pd3.jpg';
 import pic4 from '../assets/images/product/pd4.jpg';
 import pic5 from '../assets/images/product/pd5.jpg';
 import pic6 from '../assets/images/product/pd6.jpg';
+import g_1 from '../assets/images/product/metals/garden/2.jpg';
+import g_2 from '../assets/images/product/metals/garden/3.jpg';
+import g_3 from '../assets/images/product/metals/garden/4.jpg';
+import g_4 from '../assets/images/product/metals/garden/5.jpg';
+import c_1 from '../assets/images/product/metals/christmas/2.jpg';
+import c_2 from '../assets/images/product/metals/christmas/4.jpg';
+import c_3 from '../assets/images/product/metals/christmas/4.jpg';
+import c_4 from '../assets/images/product/metals/christmas/5.jpg';
 import Banner from "../components/section/Banner";
 
 const Gallery = () => {
@@ -24,12 +32,14 @@ const Gallery = () => {
     { category: "garments", img: pic3, title: "Lorem, ipsum."},
     { category: "garments", img: pic4, title: "Lorem, ipsum."},
     { category: "garments", img: pic5, title: "Lorem, ipsum."},
-    { category: "metals", img: pic6, title: "Lorem, ipsum."},
-    { category: "metals", img: pic5, title: "Lorem, ipsum."},
-    { category: "metals", img: pic2, title: "Lorem, ipsum."},
-    { category: "metals", img: pic1, title: "Lorem, ipsum."},
-    { category: "metals", img: pic4, title: "Lorem, ipsum."},
-    { category: "metals", img: pic3, title: "Lorem, ipsum."},
+    { category: "metals", img: g_1, title: "Lorem, ipsum."},
+    { category: "metals", img: g_2, title: "Lorem, ipsum."},
+    { category: "metals", img: g_3, title: "Lorem, ipsum."},
+    { category: "metals", img: g_4, title: "Lorem, ipsum."},
+    { category: "metals", img: c_1, title: "Lorem, ipsum."},
+    { category: "metals", img: c_2, title: "Lorem, ipsum."},
+    { category: "metals", img: c_3, title: "Lorem, ipsum."},
+    { category: "metals", img: c_4, title: "Lorem, ipsum."},
     
   ];
   useEffect(() => {

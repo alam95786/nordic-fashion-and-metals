@@ -68,6 +68,23 @@ const Footer = () => {
                   <li><Link to="#">Privacy Policy</Link></li>
                   <li><Link to="#">Terms & Condition</Link></li>
                 </ul>
+                <ul className="social-handle ms-0 mt-2">
+            <li>
+              <a href="#">
+              <i class="lab la-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="lab la-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="lab la-youtube"></i>
+              </a>
+            </li>
+          </ul>
               </div>
             </div>
           </div>

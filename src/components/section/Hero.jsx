@@ -39,7 +39,7 @@ const Hero = () => {
     <div className="slidearea ps-0">
       <div className="silder-three">
         <Swiper
-          modules={[Navigation, Pagination, Parallax, Autoplay]}
+          modules={[Navigation, Pagination, Parallax]}
           spaceBetween={0}
           slidesPerView={1}
           autoplay={{
@@ -78,7 +78,7 @@ const Hero = () => {
                           <i className="fas fa-arrow-right"></i>
                         </Link>
                         <button
-                          className="btn btn-primary btn-rounded m-l15 btn-border btn-md hover-icon"
+                          className="btn btn-primary btn-rounded m-l15 btn-md hover-icon"
                           onClick={togglePopup}
                         >
                           <span>Enquiry Now</span>
@@ -121,7 +121,7 @@ const Hero = () => {
                           <i className="fas fa-arrow-right"></i>
                         </Link>
                         <button
-                          className="btn btn-primary btn-rounded m-l15 btn-border btn-md hover-icon"
+                          className="btn btn-primary btn-rounded m-l15 btn-md hover-icon"
                           onClick={togglePopup}
                         >
                           <span>Enquiry Now</span>

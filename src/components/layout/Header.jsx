@@ -22,7 +22,49 @@ const Header = () => {
   }
   return (
     <header className="site-header mo-left header style-2 header-transparent">
-     
+     <div className="top-header">
+      <div className="container">
+        <div className="row">
+        <div className="col-md-6 header-ct-details">
+        <div className="widget_getintuch">
+                  <ul>
+                    <li>
+                     <a href="tel:+91 0000000000">
+                     <i className="las la-phone-volume"></i>
+                     +91 0000000000
+                     </a>
+                    </li>
+                    <li>
+                      <a href="mailto:">
+                      <i className="las la-envelope"></i>
+                      info@example.com
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+        </div>
+        <div className="col-md-6">
+          <ul className="social-handle">
+            <li>
+              <a href="#">
+              <i class="lab la-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="lab la-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="lab la-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+     </div>
       <div className="sticky-header main-bar-wraper navbar-expand-lg">
         <div className="main-bar clearfix bg-dark">
           <div className="container clearfix">

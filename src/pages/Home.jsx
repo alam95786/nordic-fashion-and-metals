@@ -23,6 +23,7 @@ import m_1 from '../assets/images/product/metals/garden/1.jpg';
 import m_2 from '../assets/images/product/metals/home-decor/1.jpg';
 import m_3 from '../assets/images/product/metals/furniture/1.jpg';
 import m_4 from '../assets/images/product/metals/christmas/1.jpg';
+import Map from '../components/section/Map';
 
 
 
@@ -128,6 +129,7 @@ const Home = () => {
         <About/>
         <Products bgColor="bg-gray" title="Garments Collection" items={GarmentsData} />
         <Products title="Metals Collection" items={metalsData}/>
+        <Map/>
         <IntroVideo/>
         <Counters/>
         <CoworkingSpace/>
